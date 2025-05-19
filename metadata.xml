@@ -35,8 +35,8 @@
             </ds:KeyInfo>
         </KeyDescriptor>
         <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
-                             Location="https://dev.local.elmodev.com/logout"/>
+                             Location="https://nexus2.elmodev.com/logout"/>
         <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
-                             Location="https://dev.local.elmodev.com/api/login/v1/authenticate"/>
+                             Location="https://nexus2.elmodev.com/login"/>
     </IDPSSODescriptor>
 </EntityDescriptor>
